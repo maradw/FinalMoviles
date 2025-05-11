@@ -3,7 +3,6 @@ using UnityEngine;
 
 public class GameManager : MonoBehaviour
 {
-
     public static event Action OnGameStart;
     public static event Action OnGameOver;
     public static event Action<int> OnScoreChanged;
